@@ -25,7 +25,7 @@
         <ul class="nav-sait">
           <li><a class="sait-link" href="./index.html">Студія</a></li>
           <li><a class="sait-link current" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="sait-link" href="./test.html">Контакти</a></li>
+          <li><a class="sait-link" href="#contact">Контакти</a></li>
         </ul>
       </nav>
 
@@ -82,7 +82,7 @@
           <ul class="project-list">
 
             <li>
-              <a href="" target="_blank" rel="noopener noreferrer nofollow">
+              <a href="#" target="_blank" rel="noopener noreferrer nofollow">
                 <article class="project-card">
                   <div class="card-tumb">
                     <img src="./images/portfolio/techno.jpg" alt="techno" width="370">
@@ -331,6 +331,7 @@
   <footer class="footer">
     <div class="footer-container container">
 
+      <!-- fotter nav -->
       <div class="footer-nav">
         <a class="logo footer-logo" href="./index.html"><span class="logo-blue">Web</span>Studio</a>
 
@@ -394,9 +395,23 @@
         </ul>
       </div>
 
+      <!-- fotter form -->
+
+      <div class="footer-subscription subscription">
+        <h3 class="subscription-title">Підпишіться на розсилку</h3>
+        <form class="subscription-form">
+          <input class="subscription-input" type="email" placeholder="E-mail" name="email" autocomplete="email"
+            required>
+          <button type="submit" class="button-subscription button primary">Підписатися
+            <svg class="subscribe-icon" width="24" height="24">
+              <use href="./svg/sprite.svg#subscribe"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+
     </div>
   </footer>
-
 </body>
 
 </html>
