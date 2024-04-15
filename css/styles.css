@@ -810,6 +810,9 @@ address {
 }
 
 .checkbox-label {
+  display: inline-flex;
+  align-items: baseline;
+  outline: 1px solid tomato;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71429;
